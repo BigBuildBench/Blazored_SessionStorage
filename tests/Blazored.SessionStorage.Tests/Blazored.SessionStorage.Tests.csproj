@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <AssemblyOriginatorKeyFile>..\..\src\Blazored.SessionStorage\Blazored.SessionStorage.snk</AssemblyOriginatorKeyFile>
+
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\src\Blazored.SessionStorage\Blazored.SessionStorage.snk">
+      <Link>Blazored.SessionStorage.snk</Link>
+    </None>
+  </ItemGroup>
+
+</Project>
